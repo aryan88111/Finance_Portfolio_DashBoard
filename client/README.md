@@ -16,20 +16,27 @@ This folder contains the React.js frontend for the Finance Portfolio Dashboard, 
 ## Setup Instructions
 
 1. **Navigate to client folder:**
-bash
+
+
+```bash
 cd client
+````
 
 
-2. Install dependencies:
+3. Install dependencies:
 
-bash
+```bash
 npm install
+````
+
 
 
 3. Run the development server:
 
-bash
+```bash
 npm start
+````
+
 
 
 ## Features
