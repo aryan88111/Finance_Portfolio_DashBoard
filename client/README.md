@@ -1,6 +1,6 @@
 
 
-#📊 Finance Portfolio Dashboard — Frontend (Client)
+# Finance Portfolio Dashboard — Frontend (Client)
 
 This folder contains the React.js frontend for the Finance Portfolio Dashboard, designed to visualize real-time stock data, track portfolio performance, and present financial insights through clean and responsive UI components.
 
