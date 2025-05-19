@@ -8,7 +8,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchStockData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/stocks');
+        const response = await fetch('https://finance-portfolio-dashboard-backend.onrender.com/api/stocks');
         if (!response.ok) {
           throw new Error('Failed to fetch stock data');
         }
