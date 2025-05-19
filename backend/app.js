@@ -15,6 +15,8 @@ app.use(express.json());
 
 
 app.use("/api/stocks", stockRoutes);
+app.use("/", stockRoutes);
+
 
 const PORT =  5000;
 app.listen(PORT, () => {
