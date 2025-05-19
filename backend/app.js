@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const stockRoutes = require("./routes/stockRoutes");
-const { getAllStockData } = require("../controllers/stockController");
+const { getAllStockData } = require("./controllers/stockController");
 const apicache = require("apicache");
 
 const rateLimit = require('express-rate-limit');
