@@ -30,7 +30,7 @@ app.use(express.json());
 
 
 app.use("/api/stocks", stockRoutes);
-app.use("/", limiter, cache('15 seconds'), stockController);
+app.use("/", limiter, cache('15 seconds'), getAllStockData);
 
 
 const PORT =  5000;
