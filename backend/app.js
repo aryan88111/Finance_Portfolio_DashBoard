@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const stockRoutes = require("./routes/stockRoutes");
-
+const { getAllStockData } = require("../controllers/stockController");
 
 
 
@@ -15,7 +15,7 @@ app.use(express.json());
 
 
 app.use("/api/stocks", stockRoutes);
-app.use("/", stockRoutes);
+app.use("/", stockController);
 
 
 const PORT =  5000;
